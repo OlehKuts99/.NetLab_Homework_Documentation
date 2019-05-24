@@ -1,0 +1,206 @@
+\hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle}{}\section{Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle Class Reference}
+\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle}\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+Inheritance diagram for Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a11decfea1be71225318df9104f997019}{Circle}} (I\+Information view)
+\begin{DoxyCompactList}\small\item\em Constructor sets the origin of the coordinates to the middle of the window and object which responses for input/output information in program. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a6417adac262a4c64223d928213bc4742}{Circle}} (I\+Information view, int radius)
+\begin{DoxyCompactList}\small\item\em Constructor sets the origin of the coordinates to the middle of the window and object which responses for input/output information in program also it sets value for radius of circle. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a5ee66f1e8237be31374d570a19c7acdd}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Overrided method to print stats of current object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_abaa706e9da35ccbbec897327cdf8bbee}{Draw}} (char symbol=\textquotesingle{} $\ast$\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em This method prints circle on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_aa133b87121d3a40da2612a9e72a3c0f4}{Move}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Moves circle in certain direction. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab541d3592fabffaa43fc67a88b23c20e}{Resize}} (int change\+Radius)
+\begin{DoxyCompactList}\small\item\em Changes size of circle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}} \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab8d3d404b5c85359896d5789a804faac}{Build\+The\+Smallest}} (\mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}} first\+Object, \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}} second\+Object)
+\begin{DoxyCompactList}\small\item\em Method returns new, the smallest circle which can contains two other circles inside. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_af5627eba629d476fe67b5efd648efc0d}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_af5627eba629d476fe67b5efd648efc0d}} 
+int {\bfseries Radius}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_af9e614ea504de44e9c602d6465e61e9c}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_af9e614ea504de44e9c602d6465e61e9c}} 
+Event\+Handler$<$ string $>$ {\bfseries Incorrect\+Radius}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a283db57c673ff5f823709a2a5c692d84}{Check\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Checks if circle is in allowed zone (within the screen). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_afe3165ffdadfabc17aeaa7c6f37a0362}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_afe3165ffdadfabc17aeaa7c6f37a0362}} 
+const string {\bfseries Name} = \char`\"{}Circle\char`\"{}
+\item 
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a34fca1503882492b06c923f54709f7b9}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a34fca1503882492b06c923f54709f7b9}} 
+readonly I\+Information {\bfseries writer}
+\item 
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a902beafbb4789362d38bfd7c584e077b}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a902beafbb4789362d38bfd7c584e077b}} 
+\mbox{\hyperlink{struct_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_point}{Point}} {\bfseries center}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a11decfea1be71225318df9104f997019}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a11decfea1be71225318df9104f997019}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Circle (\begin{DoxyParamCaption}\item[{I\+Information}]{view }\end{DoxyParamCaption})}
+
+
+
+Constructor sets the origin of the coordinates to the middle of the window and object which responses for input/output information in program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em view} & Type of class, which response for input/output information in program.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a6417adac262a4c64223d928213bc4742}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a6417adac262a4c64223d928213bc4742}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Circle (\begin{DoxyParamCaption}\item[{I\+Information}]{view,  }\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Constructor sets the origin of the coordinates to the middle of the window and object which responses for input/output information in program also it sets value for radius of circle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em view} & Type of class, which response for input/output information in program.\\
+\hline
+{\em radius} & Radius of circle.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab8d3d404b5c85359896d5789a804faac}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab8d3d404b5c85359896d5789a804faac}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!BuildTheSmallest@{BuildTheSmallest}}
+\index{BuildTheSmallest@{BuildTheSmallest}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{BuildTheSmallest()}{BuildTheSmallest()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}} Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Build\+The\+Smallest (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}}}]{first\+Object,  }\item[{\mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable}{I\+Changeable}}}]{second\+Object }\end{DoxyParamCaption})}
+
+
+
+Method returns new, the smallest circle which can contains two other circles inside. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Object} & First circle.\\
+\hline
+{\em second\+Object} & Second circle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+New circle.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable_a3ec62d87fd0e526760dcf7f929ac74ae}{Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Interfaces.\+I\+Changeable}}.
+
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a283db57c673ff5f823709a2a5c692d84}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a283db57c673ff5f823709a2a5c692d84}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!CheckPosition@{CheckPosition}}
+\index{CheckPosition@{CheckPosition}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{CheckPosition()}{CheckPosition()}}
+{\footnotesize\ttfamily bool Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Check\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Checks if circle is in allowed zone (within the screen). 
+
+\begin{DoxyReturn}{Returns}
+True if circle moves outside the screen.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_abaa706e9da35ccbbec897327cdf8bbee}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_abaa706e9da35ccbbec897327cdf8bbee}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!Draw@{Draw}}
+\index{Draw@{Draw}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Draw (\begin{DoxyParamCaption}\item[{char}]{symbol = {\ttfamily \textquotesingle{}$\ast$\textquotesingle{}} }\end{DoxyParamCaption})}
+
+
+
+This method prints circle on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol} & Character from which the figure will be formed.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_drawable_abf1b3858b298548d8562a5e2229ac564}{Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Interfaces.\+I\+Drawable}}.
+
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_aa133b87121d3a40da2612a9e72a3c0f4}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_aa133b87121d3a40da2612a9e72a3c0f4}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!Move@{Move}}
+\index{Move@{Move}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Moves circle in certain direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Value that will change X coordinate of center point.\\
+\hline
+{\em y} & Value that will change Y coordinate of center point.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable_a86e3712a90bdc833d17cff47cdfd7923}{Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Interfaces.\+I\+Changeable}}.
+
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab541d3592fabffaa43fc67a88b23c20e}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_ab541d3592fabffaa43fc67a88b23c20e}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!Resize@{Resize}}
+\index{Resize@{Resize}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{Resize()}{Resize()}}
+{\footnotesize\ttfamily void Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+Resize (\begin{DoxyParamCaption}\item[{int}]{change\+Radius }\end{DoxyParamCaption})}
+
+
+
+Changes size of circle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em change\+Radius} & Value that will change radius of circle.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_circle_a8f8ddf2b20c4a64c9b107896ef72546c}{Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Interfaces.\+I\+Circle}}.
+
+\mbox{\Hypertarget{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a5ee66f1e8237be31374d570a19c7acdd}\label{class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle_a5ee66f1e8237be31374d570a19c7acdd}} 
+\index{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}!ToString@{ToString}}
+\index{ToString@{ToString}!HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle@{HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle}}
+\subsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Home\+Work.\+Task\+Library.\+Tasks.\+Lesson6.\+Task2.\+Classes.\+Circle.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Overrided method to print stats of current object. 
+
+\begin{DoxyReturn}{Returns}
+String with stats of object.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User/source/repos/.\+Net\+Lab/\+Home\+Work.\+Task\+Library/\+Tasks/\+Lesson6/\+Task2/\+Classes/Circle.\+cs\end{DoxyCompactItemize}

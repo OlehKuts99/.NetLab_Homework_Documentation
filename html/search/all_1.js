@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['binaryserialization',['BinarySerialization',['../class_home_work_1_1_task_library_1_1_tasks_1_1_lesson10_1_1_classes_1_1_binary_serialization.html',1,'HomeWork::TaskLibrary::Tasks::Lesson10::Classes']]],
+  ['bubblesort',['BubbleSort',['../class_home_work_1_1_task_library_1_1_tasks_1_1_experements_1_1_experement1_1_1_classes_1_1_bubble_sort.html',1,'HomeWork::TaskLibrary::Tasks::Experements::Experement1::Classes']]],
+  ['buildthesmallest',['BuildTheSmallest',['../class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task1_1_1_classes_1_1_rectangle.html#a8729686f31d0d3d129c02a0128cbe00f',1,'HomeWork.TaskLibrary.Tasks.Lesson6.Task1.Classes.Rectangle.BuildTheSmallest()'],['../class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_circle.html#ab8d3d404b5c85359896d5789a804faac',1,'HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Circle.BuildTheSmallest()'],['../class_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_classes_1_1_rectangle.html#a320867e44519eebbff5887919557b996',1,'HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Classes.Rectangle.BuildTheSmallest()'],['../interface_home_work_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_task2_1_1_interfaces_1_1_i_changeable.html#a3ec62d87fd0e526760dcf7f929ac74ae',1,'HomeWork.TaskLibrary.Tasks.Lesson6.Task2.Interfaces.IChangeable.BuildTheSmallest()']]]
+];
